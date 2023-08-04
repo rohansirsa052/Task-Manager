@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(159, 200, 200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+ .heading{
+  color: aqua;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px green;
+} 
+
+.img_div{
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.div{
+  background-color: aliceblue;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  top: 50%;
+  left: 35%;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 400px;
+}
+.form-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+  background: #fff;
+  box-shadow:0 0 10px rgba(0, 0, 0,.2);
+}
+  .wrapper.animate-signUp .form-wrapper
+  .sign-in {
+  transform: rotate (7deg);
+  animation: animateRotate .7s
+  ease-in-out forwards;
+  animation-delay: .3s;
+  }
+  .wrapper.animate-signIn .form-wrapper
+  .sign-in {
+  animation: animateSignIn 1.5s
+  ease-in-out forwards;
+  }
+
+  button {
+  
+  line-height: 24px;
+  padding:0 20px;
+  background: #9b59b6;
+  color:  white;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.hooks{
+  position: absolute;
+  margin: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ left: 45%;
+ top: 50%;
+}

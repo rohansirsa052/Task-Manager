@@ -1,0 +1,78 @@
+/* Styling for the form */
+
+#root{
+    margin-top: 30px;
+  }
+  .container{
+    position: absolute;
+    left: 10px;
+  }
+  
+  .task-list{
+    position: absolute;
+    background-color: rgb(245, 241, 235);
+    right: 10px;
+    height: 80%;
+    width: 35vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  .form {
+    background-color: rgb(245, 241, 235);
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+  }
+  
+  /* Styling for the buttons */
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .button:last-child {
+    margin-right: 0;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Center the buttons */
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .task-item {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  
